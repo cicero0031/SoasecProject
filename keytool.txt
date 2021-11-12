@@ -1,0 +1,18 @@
+C:\Users\davide.agostinello>keytool -genkey -alias soasec -keyalg RSA -keysize 2048 -storetype JKS -keystore soasec.jks -validity 3652 -storepass soasec
+Specificare nome e cognome
+ [Unknown]:  davide agostinello
+Specificare il nome dell'unitÓ aziendale
+ [Unknown]:  soasec
+Specificare il nome dell'azienda
+ [Unknown]:  unimi
+Specificare la localitÓ
+ [Unknown]:  milano
+Specificare la provincia
+ [Unknown]:  mi
+Specificare il codice a due lettere del paese in cui si trova l'unitÓ
+ [Unknown]:  it
+Il dato CN=davide agostinello, OU=soasec, O=unimi, L=milano, ST=mi, C=it Þ corretto?
+ [no]:  si
+
+Immettere la password della chiave per <soasec>
+        (INVIO se corrisponde alla password del keystore):  soasec

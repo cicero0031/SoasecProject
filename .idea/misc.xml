@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/simpleRest/pom.xml" />
+        <option value="$PROJECT_DIR$/simpleRest/SimpleRestLogin/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleRestDisableAutoConf/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleRestLogin/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleRestDisableAutoConf/SimpleRestOauth2Login/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleRestOauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/1 - SimpleRest/pom.xml" />
+        <option value="$PROJECT_DIR$/2 - SimpleRestLogin/pom.xml" />
+        <option value="$PROJECT_DIR$/3 - SimpleRestDisableAutoConf/pom.xml" />
+        <option value="$PROJECT_DIR$/4 - SimpleRestOauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/5 - SimpleRestOauth2SSL/5-SimpleRestOauth2SSL/pom.xml" />
+        <option value="$PROJECT_DIR$/1-SimpleRest/pom.xml" />
+        <option value="$PROJECT_DIR$/2-SimpleRestLogin/pom.xml" />
+        <option value="$PROJECT_DIR$/3-SimpleRestDisableAutoConf/pom.xml" />
+        <option value="$PROJECT_DIR$/4-SimpleRestOauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/5-SimpleRestOauth2SSL/pom.xml" />
+        <option value="$PROJECT_DIR$/src/6-OauthServer/pom.xml" />
+        <option value="$PROJECT_DIR$/6-OauthServer/ResourceServer/pom.xml" />
+        <option value="$PROJECT_DIR$/6-OauthServer/ResourceServer/RestClient/pom.xml" />
+        <option value="$PROJECT_DIR$/6-OauthServer/RestClient/pom.xml" />
+        <option value="$PROJECT_DIR$/6-OauthComplete/AuthorizationServer/pom.xml" />
+        <option value="$PROJECT_DIR$/6-OauthComplete/ResourceServer/pom.xml" />
+        <option value="$PROJECT_DIR$/6-OauthComplete/Client/pom.xml" />
+        <option value="$PROJECT_DIR$/6bis-OauthComplete/client-server/pom.xml" />
+        <option value="$PROJECT_DIR$/6bis-OauthComplete/resource-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-authorization-server/pom.xml" />
+        <option value="$PROJECT_DIR$/6bis-OauthComplete/spring-authorization-server/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
