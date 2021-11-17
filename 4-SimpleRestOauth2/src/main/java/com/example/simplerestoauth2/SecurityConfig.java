@@ -1,10 +1,8 @@
 package com.example.simplerestoauth2;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.HttpStatusEntryPoint;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
@@ -26,7 +24,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
                 )
                 .logout(l -> l
-                        .logoutSuccessUrl("/").permitAll()
+                        .logoutSuccessUrl("/logout").permitAll()
                 )
                 .oauth2Login();
         // @formatter:on

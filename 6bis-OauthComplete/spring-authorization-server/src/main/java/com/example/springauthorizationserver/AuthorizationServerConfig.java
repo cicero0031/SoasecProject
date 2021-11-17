@@ -29,6 +29,24 @@ import java.util.UUID;
 @Configuration(proxyBeanMethods = false)
 public class AuthorizationServerConfig {
 
+
+    @Bean
+    public JWKSource<SecurityContext> jwkSource() {
+        RSAKey rsaKey = generateRsa();
+        JWKSet jwkSet = new JWKSet(rsaKey);
+        return (jwkSelector, securityContext) -> jwkSelector.select(jwkSet);
+    }
+
+    private static RSAKey generateRsa() {
+        KeyPair keyPair = generateRsaKey();
+        RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();
+        RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();
+        return new RSAKey.Builder(publicKey)
+                .privateKey(privateKey)
+                .keyID(UUID.randomUUID().toString())
+                .build();
+    }
+
     @Bean
     @Order(Ordered.HIGHEST_PRECEDENCE)
     public SecurityFilterChain authServerSecurityFilterChain(HttpSecurity http) throws Exception {
@@ -51,23 +69,6 @@ public class AuthorizationServerConfig {
                 .build();
 
         return new InMemoryRegisteredClientRepository(registeredClient);
-    }
-
-    @Bean
-    public JWKSource<SecurityContext> jwkSource() {
-        RSAKey rsaKey = generateRsa();
-        JWKSet jwkSet = new JWKSet(rsaKey);
-        return (jwkSelector, securityContext) -> jwkSelector.select(jwkSet);
-    }
-
-    private static RSAKey generateRsa() {
-        KeyPair keyPair = generateRsaKey();
-        RSAPublicKey publicKey = (RSAPublicKey) keyPair.getPublic();
-        RSAPrivateKey privateKey = (RSAPrivateKey) keyPair.getPrivate();
-        return new RSAKey.Builder(publicKey)
-                .privateKey(privateKey)
-                .keyID(UUID.randomUUID().toString())
-                .build();
     }
 
     private static KeyPair generateRsaKey() {

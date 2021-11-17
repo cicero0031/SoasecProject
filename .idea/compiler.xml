@@ -6,31 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="1-SimpleRest" />
+        <module name="5-SimpleRestOauth2SSL" />
+        <module name="resource-server" />
         <module name="4-SimpleRestOauth2" />
-        <module name="RestClient" />
         <module name="SoasecProject" />
         <module name="client-server" />
         <module name="3-SimpleRestDisableAutoConf" />
-        <module name="2-SimpleRestLogin" />
-        <module name="1-SimpleRest" />
-        <module name="AuthorizationServer" />
-        <module name="5-SimpleRestOauth2SSL" />
-        <module name="resource-server" />
-        <module name="ResourceServer" />
-        <module name="Client" />
         <module name="spring-authorization-server" />
+        <module name="2-SimpleRestLogin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="6-OauthServer" target="1.8" />
-      <module name="RestPwdSecurity" target="1.8" />
-      <module name="simpleRest" target="1.8" />
-      <module name="SimpleRest" target="1.8" />
-      <module name="SimpleRestDisableAutoConf" target="1.8" />
-      <module name="SimpleRestLogin" target="1.8" />
-      <module name="SimpleRestOauth2" target="1.8" />
-      <module name="SimpleRestOauth2 (1)" target="1.8" />
-      <module name="SimpleRestOauth2Login" target="1.8" />
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
+      <module name="wrapper (3)" target="1.5" />
+      <module name="wrapper (4)" target="1.5" />
+      <module name="wrapper (5)" target="1.5" />
+      <module name="wrapper (6)" target="1.5" />
+      <module name="wrapper (7)" target="1.5" />
+      <module name="wrapper (8)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,21 +35,8 @@
       <module name="3-SimpleRestDisableAutoConf" options="-parameters" />
       <module name="4-SimpleRestOauth2" options="-parameters" />
       <module name="5-SimpleRestOauth2SSL" options="-parameters" />
-      <module name="6-OauthServer" options="-parameters" />
-      <module name="AuthorizationServer" options="-parameters" />
-      <module name="Client" options="-parameters" />
-      <module name="ResourceServer" options="-parameters" />
-      <module name="RestClient" options="-parameters" />
-      <module name="RestPwdSecurity" options="-parameters" />
-      <module name="SimpleRest" options="-parameters" />
-      <module name="SimpleRestDisableAutoConf" options="-parameters" />
-      <module name="SimpleRestLogin" options="-parameters" />
-      <module name="SimpleRestOauth2" options="-parameters" />
-      <module name="SimpleRestOauth2 (1)" options="-parameters" />
-      <module name="SimpleRestOauth2Login" options="-parameters" />
       <module name="client-server" options="-parameters" />
       <module name="resource-server" options="-parameters" />
-      <module name="simpleRest" options="-parameters" />
       <module name="spring-authorization-server" options="-parameters" />
     </option>
   </component>

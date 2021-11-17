@@ -22,10 +22,18 @@ public class CounterController {
         return Collections.singletonMap("name", principal.getAttribute("name"));
     }
 
+    /*
     @RequestMapping("/welcome")
     @ResponseBody
-    public String index() {
+    public String welcome() {
         return "Welcome - This is a Simple Rest Service developed with Spring framework!";
+    }     */
+
+
+    @RequestMapping("/logout")
+    @ResponseBody
+    public String logout() {
+        return "Logout";
     }
 
     @PostMapping("/zero_counter")

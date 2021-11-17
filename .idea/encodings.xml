@@ -11,11 +11,11 @@
     <file url="file://$PROJECT_DIR$/4-SimpleRestOauth2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/5-SimpleRestOauth2SSL/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/5-SimpleRestOauth2SSL/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/6-OauthComplete/AuthorizationServer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/6-OauthComplete/Client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/6-OauthComplete/ResourceServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/6bis-OauthComplete/client-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6bis-OauthComplete/client-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/6bis-OauthComplete/resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6bis-OauthComplete/resource-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/6bis-OauthComplete/spring-authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6bis-OauthComplete/spring-authorization-server/src/main/resources" charset="UTF-8" />
   </component>
 </project>

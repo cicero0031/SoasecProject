@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Demo</title>
+    <title>SOASEC Project - SimpleRestOauth2.0 with SSL</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width" />
     <base href="/" />
@@ -14,7 +14,7 @@
             src="/webjars/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1>Login</h1>
+<h1 align="center">Login with Oauth 2.0</h1>
 <div class="container unauthenticated">
     <div>
         With GitHub: <a href="/oauth2/authorization/github">click here</a>
@@ -23,11 +23,9 @@
         With Google: <a href="/oauth2/authorization/google">click here</a>
     </div>
 </div>
-<div class="container authenticated" style="display: none">
-    Logged in as: <span id="user"></span>
-    <div>
-        <button onClick="logout()" class="btn btn-primary">Logout</button>
-    </div>
+<div class="container authenticated" style="display: none" align="center">
+    Welcome - <span id="user" style="color: red"></span> - This is a Simple Rest Service developed with Spring framework!"
+
 </div>
 <script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
 <script type="text/javascript">
